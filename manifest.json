@@ -1,9 +1,13 @@
 {
-    "name": "Jokes",
+    "name": "Marathi Jokes [मराठी विनोद]",
     "version": "1.0",
     "manifest_version":3,
+    "description":"Marathi Jokes [मराठी विनोद]: Every time you open a new tab, You'll get a new joke!",
     "action":{
-        "default_popup":"popup.html"
+        "default_icon": "logo.png"
     },
-    "permissions":["activeTab"]
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions":["tabs"]
 }

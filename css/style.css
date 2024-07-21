@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+h1{
+  font-size: 28px;
+}
+.container {
+
+    width: 100%;
+    height: 100vh;
+    /* background: url("https://random.imagecdn.app/1920/1080"); */
+    /* background: url("https://random.imagecdn.app/v1/image?format=image"); */
+    /* background: linear-gradient(320deg, #f27121, #e94057, #8a2387); */
+    /* background: url("https://random.imagecdn.app/1920/1080"); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: url("../img/2.png"), linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.joke-container {
+    font-family: "Noto Serif Devanagari", serif;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 50%;
+    z-index: 1000;
+
+}
+#text{
+    text-align: justify;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #a19c9c;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    font-family: "Caveat", cursive;
+    padding: 7px;
+}
+.footer p{
+    font-size:18px ;
+}
+#next{
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-shadow: 1px 1px 2px sienna;
+    font-weight: 600;
+    width: 50%;
+    margin-top: 20px;
+}
+#next:hover{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
